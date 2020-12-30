@@ -1,0 +1,47 @@
+.landing-main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.landing-topper-small img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+}
+.landing-topper-big {
+  display: none;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: red;
+}
+
+.nav-in {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.nav-logo img {
+  width: 80px;
+}
+.nav-logo-dark {
+  display: none;
+}
+.nav-right {
+  display: grid;
+  justify-content: right;
+  align-items: center;
+}
+.nav-list {
+  display: none;
+}
+.nav-burger-logo button {
+  background: none;
+  border: none;
+}
+.nav-burger-logo button img {
+}

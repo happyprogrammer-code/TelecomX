@@ -1,0 +1,5 @@
+export {default as Landing} from './Landing'
+export {default as Sponsors} from './Sponsors'
+export {default as Reason} from './Reason'
+export {default as Glimpse} from './Glimpse'
+export {default as Footer} from './Footer'
