@@ -12,13 +12,17 @@ export default function Landing() {
     }
     
     return (
+        <>
         <section className="landing-main">
             <div className="landing-topper-small">
                 <img src={smallLanding} alt="" className="src"/>
             </div>
+            
             <div className="landing-topper-big">
+                
                 <img src={bigLanding} alt="" className="src"/>
             </div>
+           
             
             <nav>
                 <div className="con-90-res">
@@ -52,9 +56,9 @@ export default function Landing() {
                         </div>
                         <div className="landing-texts">
                             <div className="landing-texts-in">
-                            <h1>Design your own televison</h1>
-                            <p>Design you own Television design your own experience, design your own future experience, design your own future</p>
-                            <input type="button" value="GET STARTED"/>
+                                <h1>Design your<br/> own televison</h1>
+                                <p>Design you own Television design your own experience, design your own future experience, design your own future</p>
+                                <input type="button" value="GET STARTED"/>
                             </div>
                         </div>
                     </div>
@@ -87,6 +91,7 @@ export default function Landing() {
                 <h1>lololS</h1>
             </div>
         </section>
+        </>
         
     )
 }

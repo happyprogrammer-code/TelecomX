@@ -1,0 +1,48 @@
+.sponsors-main {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.sponsors-block {
+  width: 100%;
+  height: 50px;
+  background-color: #ffa62b;
+}
+
+.sponsors-top-svg {
+  margin-top: -2px;
+}
+
+.sponsors-bot-svg {
+  transform: rotate(180deg);
+  position: relative;
+  bottom: -5px;
+}
+
+.sponsors-title {
+  text-align: center;
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 40px;
+  margin: 60px 0;
+}
+
+.sponsor-img {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-img img {
+  width: 200px;
+}
+
+@media (min-width: 800px) {
+  .sponsors-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

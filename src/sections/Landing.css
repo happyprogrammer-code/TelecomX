@@ -3,7 +3,6 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  margin-bottom: 2000px;
 }
 
 .landing-topper-small img {
@@ -22,7 +21,7 @@ nav {
   background-color: #ffa62b;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 3000;
   color: #fff;
   /* background-color: red; */
 }
@@ -58,6 +57,7 @@ nav {
   width: 100%;
   background-color: #16697a;
   transition: 600ms all;
+  z-index: 1500;
 }
 .link-list {
   margin-top: 40px;
@@ -128,6 +128,9 @@ nav {
 }
 
 @media (min-width: 650px) {
+  .landing-main {
+    max-height: 436px;
+  }
   .nav-burger-logo {
     display: none;
   }
@@ -179,13 +182,28 @@ nav {
     font-size: 35px;
   }
   .landing-texts p {
-    font-size: 24px;
+    font-size: 20px;
+    width: 80%;
   }
 }
 @media (min-width: 1000px) {
+  .landing-main {
+    max-height: 600px;
+    /* display: none; */
+  }
+
+  nav {
+    height: 3.5rem;
+  }
+
+  .nav-in {
+    height: 100%;
+  }
+
   .landing-topper-big img {
     width: 550px;
   }
+
   .landing-big-in {
     height: 100%;
   }
@@ -195,5 +213,16 @@ nav {
   .landing-texts {
     display: grid;
     align-items: center;
+  }
+  .landing-texts h1 {
+    font-size: 50px;
+  }
+  .landing-big-area {
+    width: 100%;
+  }
+}
+@media (min-width: 1300px) {
+  .landing-topper-big {
+    display: none;
   }
 }
