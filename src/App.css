@@ -14,3 +14,15 @@ body {
   margin: 0 auto;
   position: relative;
 }
+
+.top-wave img {
+  width: 100%;
+  position: relative;
+  top: -10px;
+}
+.bot-wave img {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  transform: rotate(180deg);
+}

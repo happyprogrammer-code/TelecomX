@@ -1,24 +1,18 @@
-.glimpse-title {
+.glimpse-top-img {
+  width: 100%;
   position: relative;
-  display: grid;
-}
-.glimpse-title-box {
-  background-color: #db6400;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  z-index: 2;
-}
-.glimpse-top-svg {
-  position: relative;
-  top: 10px;
-  transform: rotate(180deg);
-}
-.glimpse-bot-svg {
-  position: relative;
-  top: -6px;
+  top: -10px;
 }
 
+.glimpse-title-boxx {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3vw;
+  text-align: center;
+}
 .glimpse-grid {
   display: grid;
   grid-template-columns: 1fr;

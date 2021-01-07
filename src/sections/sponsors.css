@@ -4,9 +4,16 @@
   position: relative;
 }
 
+.sponsors-title {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+
 .sponsors-block {
+  position: relative;
+  z-index: 4;
   width: 100%;
-  height: 50px;
+  height: 60px;
   background-color: #ffa62b;
 }
 
@@ -41,8 +48,29 @@
   width: 200px;
 }
 
+@media (min-width: 650px) {
+  .sponsors-title {
+    font-size: 1.3rem;
+  }
+}
+
 @media (min-width: 800px) {
   .sponsors-grid {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .sponsors-title {
+    font-size: 1.5rem;
+  }
+  .sponsors-title br {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sponsor-img img {
+    width: 300px;
+  }
+  .sponsors-block {
+    display: none;
   }
 }

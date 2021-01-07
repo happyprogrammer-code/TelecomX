@@ -17,10 +17,11 @@ export default function Landing() {
             <div className="landing-topper-small">
                 <img src={smallLanding} alt="" className="src"/>
             </div>
-            
-            <div className="landing-topper-big">
-                
-                <img src={bigLanding} alt="" className="src"/>
+            <div className="landing-img-con">
+                <div className="landing-topper-big">
+                    
+                    <img src={bigLanding} alt="" className="src"/>
+                </div>
             </div>
            
             
